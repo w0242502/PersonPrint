@@ -35,4 +35,18 @@ public class Main {
     public static void printPerson(String name, int age) {
         System.out.println("Hi "+ name + "! You are "+ age + " years young!");
     }
+
+    public static void printPerson(String name, Integer age) {
+
+        System.out.printf("This person is named: %s, and their age is: %d.\n", name, age);
+
+        int totalLength = 0;
+
+        for (int i = 0; i < name.length(); i++) {
+            totalLength += 1;
+        }
+
+        System.out.printf("This person's name has: %d letters", totalLength);
+    }
+
 }
