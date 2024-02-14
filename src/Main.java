@@ -30,13 +30,14 @@ public class Main {
         }
 
         printPerson(name, age);
+        ageCounter(name, age);
     }
 
     public static void printPerson(String name, int age) {
         System.out.println("Hi "+ name + "! You are "+ age + " years young!");
     }
 
-    public static void printPerson(String name, Integer age) {
+    public static void ageCounter(String name, int age) {
 
         System.out.printf("This person is named: %s, and their age is: %d.\n", name, age);
 
