@@ -37,7 +37,7 @@ public class Main {
         System.out.println("Hi "+ name + "! You are "+ age + " years young!");
     }
 
-    public static void ageCounter(String name, int age) {
+    public static void nameLetterCounter(String name, int age) {
 
         System.out.printf("This person is named: %s, and their age is: %d.\n", name, age);
 
