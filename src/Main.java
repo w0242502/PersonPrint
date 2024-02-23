@@ -61,6 +61,7 @@ public class Main {
         String noun3 = words.next();
 
         System.out.printf("%S has commited %S at %S %d times", noun3, noun2, noun1, number);
+
     }
 
 }
