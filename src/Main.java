@@ -34,7 +34,7 @@ public class Main {
     public static void printPerson(String name, int age) {
         System.out.println("Hi "+ name + "! You are "+ age + " years young!");
     }
-
+//Display message to user based on age
     public static void prettyPrint(String first, int age) {
         System.out.println(first);
         switch (age) {
