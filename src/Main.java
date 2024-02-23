@@ -48,7 +48,7 @@ public class Main {
                 System.out.println("Time for your bimonthly checkup");
                 break;
             case 61,62,63,64,65,66,67,68,69,70:
-                System.out.println("RETIRED! Hopefully.. /: ");
+                System.out.println("RETIRED! Hopefully. /: ");
                 break;
             default:
                 System.out.println("You are either an infant or took great care of yourself during life");
