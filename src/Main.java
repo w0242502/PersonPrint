@@ -17,7 +17,7 @@ public class Main {
         String name = scanner.nextLine();
 
 
-        int age=-1;
+        int age = -1;
         while (age == -1) {
             try {
                 System.out.println("Please enter your age:");
@@ -31,10 +31,21 @@ public class Main {
 
         printPerson(name, age);
         nameLetterCounter(name, age);
+        tacoBell(name, age);
     }
 
     public static void printPerson(String name, int age) {
-        System.out.println("Hi "+ name + "! You are "+ age + " years young!");
+        System.out.println("Hi " + name + "! You are " + age + " years young!");
+    }
+
+    public static void tacoBell(String name, int age) {
+        if (age <= 25) {
+            int item = (int) (Math.random() * 4);
+            String[] menu = {"Cheesy Gordita Crunches", "Chalupa Supremes", "Baja Blasts", "Nacho Cheese Doritos® Locos Tacos"};
+            System.out.println("Order for " + name + ". Here are your " + age + " " + menu[item] + ".");
+        } else {
+            System.out.println("You're " + age + "? Here's your ensure and metamucil smoothie, " + name + ".");
+        }
     }
 
     public static void nameLetterCounter(String name, int age) {
