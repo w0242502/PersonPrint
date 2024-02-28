@@ -32,6 +32,7 @@ public class Main {
         printPerson(name, age);
         nameLetterCounter(name, age);
         tacoBell(name, age);
+        healthPrint(name, age);
     }
 
     public static void printPerson(String name, int age) {
@@ -61,4 +62,27 @@ public class Main {
         System.out.printf("This person's name has: %d letters", totalLength);
     }
 
+
+    //Display message to user based on age
+    public static void healthPrint(String first, int age) {
+        System.out.println(first);
+        switch (age) {
+            case 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26:
+                System.out.println("You're in your prime");
+                break;
+            case 27,28,29,30,31,32,33,34,35,36,37,38:
+                System.out.println("Starting to feel some joint pain right?");
+                break;
+            case 39,40,41,42,43,44,45,46,47,48,49,50:
+                System.out.println("Time for your bimonthly checkup");
+                break;
+            case 61,62,63,64,65,66,67,68,69,70:
+                System.out.println("RETIRED! Hopefully. /: ");
+                break;
+            default:
+                System.out.println("You are either a new born or you took great care of yourself during life");
+        }
+    }
+
 }
+
