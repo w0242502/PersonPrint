@@ -30,7 +30,7 @@ public class Main {
         }
 
         printPerson(name, age);
-        ageCounter(name, age);
+        nameLetterCounter(name, age);
     }
 
     public static void printPerson(String name, int age) {
