@@ -1,3 +1,3 @@
 # PersonPrint
 
-Have a good morning/afternoon/evening!
+This repo is to practice git forking and pull requests.
